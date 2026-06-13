@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* Custom Styles */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+.swiper-wrapper {
+    padding-bottom: 40px;
+}
+
+.timeline-line::before {
+    background: linear-gradient(
+            180deg,
+            transparent 0%,
+            #cbd5e1 10%,
+            #cbd5e1 90%,
+            transparent 100%
+    );
+}
