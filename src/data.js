@@ -44,9 +44,9 @@ export const WORK_HISTORY = [
     },
     {
         id: 4,
-        role: "Software Engineering Intern",
+        role: "Software Engineer Intern",
         company: "VoxCrow Pvt. Ltd., Kathmandu",
-        date: "09/2021 – 07/2022",
+        date: "03/2022 – 07/2022",
         icon: "fa-laptop-code",
         color: "bg-gray-500",
         details: [
@@ -92,34 +92,34 @@ export const SKILLS = [
 export const PROJECTS = [
     {
         id: 1,
-        title: "GetDesk",
-        tech: ["Laravel", "CRM"],
-        desc: "CRM-based web application designed to streamline and automate business operations."
-    },
-    {
-        id: 2,
         title: "Everest Bank CRM",
         tech: ["Laravel", "CodeIgniter", "CRM"],
         desc: "Developed backend features and reporting modules for secure and efficient banking data management."
     },
     {
-        id: 3,
+        id: 2,
         title: "WP Travel Engine Plugins",
         tech: ["WordPress", "Gutenberg", "ReactJS"],
         desc: "Created custom WordPress plugins and extensions to enhance travel booking functionality and user experience."
     },
     {
+        id: 3,
+        title: "GetDesk",
+        tech: ["Laravel", "CRM"],
+        desc: "CRM-based web application designed to streamline and automate business operations."
+    },
+    {
         id: 4,
+        title: "Lung Cancer Detection",
+        tech: ["Python", "CNN"],
+        desc: "Developed a CNN-based machine learning model for detecting lung cancer from medical imaging data."
+    },
+    {
+        id: 5,
         title: "E-commerce Website",
         tech: ["C#", ".NET"],
         desc: "Built a full-featured e-commerce platform using C# with secure payment integration and user management."
     },
-    {
-        id: 5,
-        title: "Lung Cancer Detection",
-        tech: ["Python", "CNN"],
-        desc: "Developed a CNN-based machine learning model for detecting lung cancer from medical imaging data."
-    }
 ];
 
 export const PROFILE_IMAGE = profileImage;
